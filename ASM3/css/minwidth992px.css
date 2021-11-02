@@ -1,0 +1,17 @@
+/*media*/
+@media only screen and (min-width: 992px) {
+    #menubar {
+        background-color: #f7f7f7;
+    }
+    #menubar ul li a {
+        color: black;
+    }
+    #footer {
+        background-color: #efefef;
+    }
+    #footer h3 {
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    color: #5E5E5E;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up</title>
+    </head>
+
+    <body>
+        <div>
+            <ul style="list-style-type:disc;">
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <h1 style="font-family:verdana;background-color:DodgerBlue;color:white;">Sign Up</h1>
+        <div>
+            <h2>Required information</h2>
+            <p>First name <input type="text" placeholder="Enter your first name" style="width:300px;text-align:left;"></p>
+            <p>Last name <input type="text" placeholder="Enter your last name" style="width:300px;text-align:left;"></p>
+            <p>Email address <input type="text" placeholder="example@email.com" style="width:300px;text-align:left;"></p>
+            <p>Username <input type="text" placeholder="Choose your username" style="width:300px;text-align:left;"></p>
+            <p>Password <input type="text" placeholder="Using 12 characters or more" style="width:300px;text-align:left;"></p>
+            <p>Gender
+                <label for="men"><input id="men" type="radio" name="gender" value="men"> Men</label>
+                <label for="women"><input id="women" type="radio" name="gender" value="women"> Women</label>
+                <label for="undisclosed"><input id="undisclosed" type="radio" name="gender" value="undisclosed" checked> Undisclosed</label>
+            </p>
+        </div>
+        <div>
+            <h2>Further information</h2>
+            <p>Interests<br>
+                <label for="surfing"><input id="surfing" type="checkbox" name="interests" value="surfing"> Surfing</label><br>
+                <label for="cocking"><input id="cocking" type="checkbox" name="interests" value="cocking"> Cocking</label><br>
+                <label for="reading"><input id="reading" type="checkbox" name="interests" value="reading"> Reading</label><br>
+            </p>
+            <p>Register for<br>
+                <label for="travel"><input id="travel" type="checkbox" name="register" value="travel"> Travel</label><br>
+                <label for="host"><input id="host" type="checkbox" name="register" value="lazy"> Host</label>
+            </p>
+        </div>
+        <p></p>
+        <button name="signup">Sign Up</button>
+    </body>
+</html>

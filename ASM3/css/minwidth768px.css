@@ -1,0 +1,7 @@
+/*media*/
+@media only screen and (min-width: 768px) {
+    #menubar ul li {
+        display: inline-block;
+        padding: 0.875rem;
+    }
+}
